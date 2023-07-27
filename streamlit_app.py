@@ -2,6 +2,7 @@ import streamlit as st
 import replicate
 import os
 
+# reference: How to build a Llama 2 chatbot- https://blog.streamlit.io/how-to-build-a-llama-2-chatbot/#4-set-the-api-token
 # App title
 st.set_page_config(page_title="💁🏾‍♀️💬 Sam")
 
