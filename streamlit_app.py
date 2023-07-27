@@ -17,7 +17,7 @@ with st.sidebar:
             st.warning('Please enter your credentials!', icon='⚠️')
         else:
             st.success('Proceed to entering your prompt message!', icon='👉')
-    st.markdown('🔍 Learn more about Sam [here](sam-b06097.webflow.io)!')
+    st.markdown('🔍 Learn more about Sam [here](https://sam-b06097.webflow.io/)!')
 os.environ['REPLICATE_API_TOKEN'] = replicate_api
 
 # Store LLM generated responses
